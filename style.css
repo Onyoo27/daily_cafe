@@ -1,0 +1,30 @@
+body ul {
+    list-style-type: none;
+}
+
+.wrapper {
+    width: 1024px;
+    background-color: #7E4D3F;
+}
+
+nav ul {
+    font-size: 0;
+    margin-bottom: 24px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 3px 50px;
+    background-color: #fff;
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+nav li:last-child {
+    margin-right: 0px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+}
