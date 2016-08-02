@@ -2,6 +2,7 @@ body{
     width: 100%;
     background-color: #8E6B40;
     margin: 0;
+    font-family: "AlexandriaFLF";
 }
 
 a {
@@ -31,10 +32,21 @@ nav ul {
 nav li {
     display: inline-block;
     margin-right: 0px;
+    width: 187px;
+    background-color:#8E6B40;
 }
 
 nav li:last-child {
     margin-right: 0px;
+}
+
+nav li 
+
+h1 {
+    font-size: 18px;
+    color: #5C3B22;
+    display: inline-block;
+    padding: 5px;
 }
 
 h2 {
