@@ -46,7 +46,7 @@ h1 {
     font-size: 18px;
     color: #5C3B22;
     display: inline-block;
-    padding: 5px;
+    padding-right: 5px;
 }
 
 h2 {
@@ -62,15 +62,14 @@ h3 {
     color: #FFDC92;
 }
 
-body content img {
-    margin: 0px 30px;
+body content .main img {
+    margin: 0px 30px 20px 30px;
 }
 
 body content .news {
-    width: 568px;
-    margin: 20px 0 0 20px;
+    width: 548px;
+    margin: 0px 20px 20px 30px;
     color: #FFDC92;
-    font-family: "AlexandriaFLF";
     border: 5px solid #8E6B40;
     border-radius: 10px;
     padding: 20px;
@@ -116,6 +115,14 @@ body content .sns {
     float: left;
 }
 
+body content .sns ul {
+    padding: 0;
+}
+
+body content .sns img {
+    width: 100%;
+}
+
 footer {
     font-size: 10px;
     color: #FFDC92;
@@ -125,5 +132,5 @@ footer {
 
 footer p {
     text-align: center;
-    padding: 1px;
+    padding: 7px;
 }
